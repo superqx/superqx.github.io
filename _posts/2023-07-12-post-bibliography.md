@@ -10,7 +10,7 @@ related_posts: false
 related_publications: true
 ---
 
-This post shows how to add bibliography to simple blog posts. We support every citation style that [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) does. That means simple citation like {% cite kristjansen2025spectrumdefectabjmtheory %}, multiple citations like {% cite kristjansen2025spectrumdefectabjmtheory einstein1905movement %}, long references like {% reference einstein1905movement %} or also quotes:
+This post shows how to add bibliography to simple blog posts. We support every citation style that [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) does. That means simple citation like {% cite kristjansen2025spectrumdefectabjmtheory %}, multiple citations like {% cite kristjansen2025spectrumdefectabjmtheory gombor2025exactoverlapsintegrablematrix %}, long references like {% reference gombor2025exactoverlapsintegrablematrix %} or also quotes:
 
 {% quote kristjansen2025spectrumdefectabjmtheory %}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
