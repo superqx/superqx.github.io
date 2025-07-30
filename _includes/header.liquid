@@ -48,7 +48,7 @@
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">   
+            <a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">
               {% t about_title %}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -68,7 +68,15 @@
                   {% endif %}
                 {% endfor %}
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
                     {% t p.title %}
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
@@ -99,7 +107,8 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ p.url | prepend: site.baseurl }}">{% t p.title %}
+                  <a class="nav-link" href="{{ p.url | prepend: site.baseurl }}">
+                    {%- t p.title %}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -117,15 +126,14 @@
             </li>
           {% endif %}
           {% if site.enable_darkmode %}
-
-           <!-- Toogle language -->
-           <li class="nav-item active">
-           {% if site.lang == "en" %}
-           <a class="nav-link" href="{{site.baseurl_root}}/pt-br{{page.url}}"> ZH </a>
-           {% elsif site.lang == "zh" %}
-           <a class="nav-link" href="{{site.baseurl_root}}{{page.url}}"> EN </a>
-          {% endif %}
-          </li>
+            <!-- Toogle language -->
+            <li class="nav-item active">
+              {% if site.lang == 'en' %}
+                <a class="nav-link" href="{{site.baseurl_root}}/pt-br{{page.url}}"> ZH </a>
+              {% elsif site.lang == 'zh' %}
+                <a class="nav-link" href="{{site.baseurl_root}}{{page.url}}"> EN </a>
+              {% endif %}
+            </li>
 
             <!-- Toogle theme mode -->
             <li class="toggle-container">
