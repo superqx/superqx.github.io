@@ -41,8 +41,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/projects/";
           },
-        },{id: "nav-代码库",
-          title: "代码库",
+        },{id: "nav-repositórios",
+          title: "repositórios",
           description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
           section: "Menu de navegação",
           handler: () => {
