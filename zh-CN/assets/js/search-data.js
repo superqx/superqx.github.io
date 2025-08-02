@@ -27,9 +27,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/blog/";
           },
-        },{id: "nav-publicações",
-          title: "publicações",
-          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
+        },{id: "nav-文章发表",
+          title: "文章发表",
+          description: "我的完整文章列表，包括发表链接，按照时间排序。",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-CN/publications/";
@@ -41,8 +41,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/projects/";
           },
-        },{id: "nav-repositórios",
-          title: "repositórios",
+        },{id: "nav-代码库",
+          title: "代码库",
           description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
           section: "Menu de navegação",
           handler: () => {
