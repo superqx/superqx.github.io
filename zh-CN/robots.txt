@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://superqx.github.io/sitemap.xml
