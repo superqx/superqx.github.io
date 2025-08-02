@@ -41,8 +41,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/projects/";
           },
-        },{id: "nav-repositórios",
-          title: "repositórios",
+        },{id: "nav-代码库",
+          title: "代码库",
           description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
           section: "Menu de navegação",
           handler: () => {
@@ -55,9 +55,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/cv/";
           },
-        },{id: "nav-ensino",
-          title: "ensino",
-          description: "Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.",
+        },{id: "nav-和学生的快乐时光",
+          title: "和学生的快乐时光",
+          description: "我的笔记，开放课链接的分享，以及其他与物理教学相关内容",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-CN/teaching/";
