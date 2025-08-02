@@ -2,9 +2,9 @@
 page_id: blog
 layout: default
 permalink: /blog/
-title: blog
-blog_name: al-folio em português brasileiro
-description: um tema simples para acadêmicos
+title: 博客
+blog_name: 关于物理的碎碎念
+description: 我对于物理和这个世界的一些看法
 nav: true
 nav_order: 1
 pagination:
