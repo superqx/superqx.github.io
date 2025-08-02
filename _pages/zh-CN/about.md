@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: 关于我
 permalink: /
-subtitle: <a href='https://nbi.ku.dk'>机构</a> 尼尔斯-玻尔研究所理论物理博士.
+subtitle: <a href='https://nbi.ku.dk'>尼尔斯-玻尔研究所</a> 理论物理博士.
 
 profile:
   align: right
