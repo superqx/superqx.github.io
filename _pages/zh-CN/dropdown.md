@@ -1,17 +1,17 @@
 ---
 id: dropdown
 layout: page
-title: submenus
+title: 子菜单
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: publicações
+  - title: 文章发表
     permalink: /publications/
   - title: divider
-  - title: projetos
+  - title: 项目
     permalink: /projects/
   - title: divider
-  - title: blog
+  - title: 博客
     permalink: /blog/
 ---

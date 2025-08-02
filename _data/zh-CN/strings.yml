@@ -80,40 +80,40 @@ cv:
   volunteer: Voluntário
   work: Trabalho
 footer:
-  copyright: Direitos autorais
-  last_updated: "Última atualização:"
+  copyright: 版权所有
+  last_updated: "最后更新:"
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 驱动, 采用 <a href="https://github.com/alshedivat/al-folio">al-folio</a> 主题.
   托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 latest_posts: últimas postagens
 months:
   long:
-    january: Janeiro
-    february: Fevereiro
-    march: Março
-    april: Abril
-    may: Maio
-    june: Junho
-    july: Julho
-    august: Agosto
-    september: Setembro
-    october: Outubro
-    november: Novembro
-    december: Dezembro
+    january: 一月
+    february: 二月
+    march: 三月
+    april: 四月
+    may: 五月
+    june: 六月
+    july: 七月
+    august: 八月
+    september: 九月
+    october: 十月
+    november: 十一月
+    december: 十二月
   short:
-    january: Jan
-    february: Fev
-    march: Mar
-    april: Abr
-    may: Mai
-    june: Jun
-    july: Jul
-    august: Ago
-    september: Set
-    october: Out
-    november: Nov
-    december: Dez
-news: novidades
+    january: 一月
+    february: 二月
+    march: 三月
+    april: 四月
+    may: 五月
+    june: 六月
+    july: 七月
+    august: 八月
+    september: 九月
+    october: 十月
+    november: 十一月
+    december: 十二月
+news: 新闻
 newsletter:
   back: Voltar
   error: "Oops! Algo deu errado, por favor tente novamente."
