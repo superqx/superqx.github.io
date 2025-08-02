@@ -128,27 +128,32 @@
           <!-- Toogle language -->
           {% if site.languages.size >= 2 %}
             {% if site.languages.size == 2 %}
-              {% if site.active_lang == site.languages.first %}
-                {% assign other_language = site.languages.last %}
-              {% else %}
-                {% assign other_language = site.languages.first %}
-              {% endif %}
-              <li class="nav-item active">
+              <li class="nav-item">
+                {% if site.active_lang == site.languages.first %}
+                    {% assign other_language = site.languages.last %}
+                {% else %}
+                    {% assign other_language = site.languages.first %}
+                {% endif %}
+
+                {% comment %} Map language code to country flag code {% endcomment %}
+                {% case other_language %}
+                  {% when 'en' %} {% assign flag_code = 'gb' %}
+                  {% when 'zh-CN' %} {% assign flag_code = 'cn' %}
+                  {% else %} {% assign flag_code = other_language | downcase %}
+                {% endcase %}
+
                 {% if site.active_lang == site.default_lang %}
-                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
-                    {% if site.country_flag %}
-                      <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
-                    {% else %}
-                      {{ other_language | upcase }}
-                    {%- endif -%}
+                  <a class="nav-link" href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}">
+                    <span class="fi fi-{{ flag_code }}"></span>
                   </a>
                 {% else %}
-                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
-                    {% if site.country_flag %}
-                      <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
-                    {% else %}
-                      {{ site.default_lang | upcase }}
-                    {%- endif -%}
+                  {% case site.default_lang %}
+                    {% when 'en' %} {% assign default_flag = 'gb' %}
+                    {% when 'zh-CN' %} {% assign default_flag = 'cn' %}
+                    {% else %} {% assign default_flag = site.default_lang | downcase %}
+                  {% endcase %}
+                  <a class="nav-link" href="{{ site.baseurl }}{{ page.url }}">
+                    <span class="fi fi-{{ default_flag }}"></span>
                   </a>
                 {% endif %}
               </li>
