@@ -226,7 +226,7 @@ sass:
   style: compressed
 
 # multi language settings
-languages: ["en", "pt-br"]
+languages: ["en", "cn"]
 default_locale_in_subfolder: false
 
 # -----------------------------------------------------------------------------
