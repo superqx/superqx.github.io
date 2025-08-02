@@ -69,22 +69,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/people/";
           },
-        },{id: "dropdown-publicações",
-              title: "publicações",
+        },{id: "dropdown-文章发表",
+              title: "文章发表",
               description: "",
               section: "Outras opções",
               handler: () => {
                 window.location.href = "/zh-CN/publications/";
               },
-            },{id: "dropdown-projetos",
-              title: "projetos",
+            },{id: "dropdown-项目",
+              title: "项目",
               description: "",
               section: "Outras opções",
               handler: () => {
                 window.location.href = "/zh-CN/projects/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-博客",
+              title: "博客",
               description: "",
               section: "Outras opções",
               handler: () => {
