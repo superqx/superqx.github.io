@@ -14,7 +14,6 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://superqx.github.io # the base hostname & protocol for your site
@@ -41,6 +40,8 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
+rss_icon: true
+
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -53,7 +54,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -85,14 +86,13 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
   enabled: true
+  title: ":title - pagination.page :num"
 
 related_blog_posts:
   enabled: true
@@ -111,10 +111,9 @@ giscus:
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-  lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: multi-language-al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -173,22 +172,29 @@ include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
+  - CONTRIBUTING.cn.md
   - CUSTOMIZE.md
+  - CUSTOMIZE.cn.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
   - FAQ.md
+  - FAQ.cn.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
+  - INSTALL.cn.md
   - LICENSE
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  - _pages/en/about_einstein.md
+  - _pages/cn/about_einstein.md
   - purgecss.config.js
   - README.md
+  - README.cn.md
   - readme_preview/
+  - UPGRADING.md
   - vendor
 keep_files:
   - CNAME
@@ -205,6 +211,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
+  - jekyll-polyglot
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
@@ -213,7 +220,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-multiple-languages-plugin
 
 # Sitemap settings
 defaults:
@@ -223,11 +229,8 @@ defaults:
       sitemap: false
 
 sass:
+  sourcemap: never
   style: compressed
-
-# multi language settings
-languages: ["en", "cn"]
-default_locale_in_subfolder: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -343,6 +346,17 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
+
+# -----------------------------------------------------------------------------
+# Jekyll Polyglot
+# -----------------------------------------------------------------------------
+
+languages: ["en", "zh-CN"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+lang_from_path: true
+country_flag: false # set true for allowing flag symbol in language toggle
+parallel_localization: false
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -629,8 +643,10 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+  - data: resume_en
+    json: assets/json/resume_en.json # it can also be an url
+  - data: resume_zh-CN
+    json: assets/json/resume_zh-CN.json # it can also be an url
 
 jsonresume:
   - basics

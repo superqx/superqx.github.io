@@ -1,6 +1,6 @@
-# Contributing to al-folio
+# Contributing to multi-language-al-folio
 
-Thank you for considering contributing to al-folio!
+Thank you for considering contributing to al-folio or its multilingual version! Please check if your contribution is related to the template itself or to the multilingual aspect of it. If it is the former, please consider doing it in the original [al-folio](https://github.com/alshedivat/al-folio/) repository. If it is the latter, follow the instructions below.
 
 ## Pull Requests
 
@@ -10,28 +10,19 @@ If you would like to implement a new feature or a bug, please make sure you (or 
 
 Note that since [#2048](https://github.com/alshedivat/al-folio/pull/2048) al-folio uses the [prettier formatter](https://prettier.io/) for its code, meaning all new submitted code must conform to its standard. If you don't have `prettier` installed for your setup and the `prettier` code check fails when submitting a PR, you can check the referred failed action in our repo. In that action there will be an artifact with an HTML diff showing the needed changes.
 
-### Adding new social media information
-
-To add new social media information, there are a few places you might need to modify. Currently, the template supports icons from [Academicons](https://jpswalsh.github.io/academicons/), [Font Awesome](https://fontawesome.com/), and [Tabler Icons](https://tabler.io/icons). For an example PR, check [Add HAL id to socials](https://github.com/alshedivat/al-folio/pull/3206/files). Note that the information in all these files are alphabetically sorted.
-
-- \_data/socials.yml - your social media information
-- \_includes/metadata.liquid - add social media information to site metadata
-- \_includes/social.liquid - where the social media icon will be displayed
-- \_scripts/search.liquid.js - make the social media information appear in search
-
 ## Issues
 
 We use GitHub issues to track bugs and feature requests.
 Before submitting an issue, please make sure:
 
 1. You have read [the FAQ section](FAQ.md) of the README and your question is NOT addressed there.
-2. You have done your best to ensure that your issue is NOT a duplicate of one of [the previous issues](https://github.com/alshedivat/al-folio/issues).
+2. You have done your best to ensure that your issue is NOT a duplicate of one of [the previous issues](https://github.com/george-gca/multi-language-al-folio/issues).
 3. Your issue is either a bug (unexpected/undesirable behavior) or a feature request.
-   If it is just a question, please ask it in the [Discussions](https://github.com/alshedivat/al-folio/discussions) forum.
+   If it is just a question, please ask it in the [Discussions](https://github.com/george-gca/multi-language-al-folio/discussions) forum.
 
 When submitting an issue, please make sure to use the appropriate template.
 
 ## License
 
-By contributing to al-folio, you agree that your contributions will be licensed
+By contributing to multi-language-al-folio, you agree that your contributions will be licensed
 under the LICENSE file in the root directory of the source tree.

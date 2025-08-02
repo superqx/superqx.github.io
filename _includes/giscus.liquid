@@ -1,13 +1,4 @@
-<div
-  id="giscus_thread"
-  {% if page.layout == 'post' %}
-    style="max-width: {{ site.max_width }}; margin: 0 auto;"
-  {% endif %}
->
-  {% if page.layout == 'post' %}
-    <br>
-  {% endif %}
-
+<div id="giscus_thread" style="max-width: {{ site.max_width }}; margin: 0 auto;">
   {% if site.giscus.repo %}
     <script>
       let giscusTheme = determineComputedTheme();
@@ -23,7 +14,7 @@
         'data-emit-metadata': '{{ site.giscus.emit_metadata }}',
         'data-input-position': '{{ site.giscus.input_position }}',
         'data-theme': giscusTheme,
-        'data-lang': '{{ site.giscus.lang }}',
+        'data-lang': '{{ site.active_lang | split: "-" | first }}',
         crossorigin: 'anonymous',
         async: '',
       };
