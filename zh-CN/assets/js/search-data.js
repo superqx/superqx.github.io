@@ -34,9 +34,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/publications/";
           },
-        },{id: "nav-projetos",
-          title: "projetos",
-          description: "Uma crescente coleção de seus projetos interessantes.",
+        },{id: "nav-项目",
+          title: "项目",
+          description: "我的快乐项目合集",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-CN/projects/";
