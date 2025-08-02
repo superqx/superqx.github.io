@@ -18,13 +18,13 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
-    {% include lang-switcher.liquid %}
   </head>
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
     {% include header.liquid %}
+    {% include lang-switcher.liquid %}
 
     <!-- Content -->
     <div class="container mt-5" role="main">
