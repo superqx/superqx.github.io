@@ -2,7 +2,7 @@
   {% for lang in site.languages %}
     {% unless lang == site.active_lang %}
       <a href="{{ page.url | replace: '/' | prepend: '/' | prepend: lang | replace: '//', '/' }}">
-        <img src="/assets/flags/{{ lang }}.png" alt="{{ lang }} flag" width="24" height="16">
+        <img src="/assets/img/flags/{{ lang }}.png" alt="{{ lang }} flag" width="24" height="16">
       </a>
     {% endunless %}
   {% endfor %}
