@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p></p>
     <p></p>
-    <p>白崖快乐的一天</p>
+    <p></p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
