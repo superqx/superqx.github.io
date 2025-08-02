@@ -20,9 +20,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/zh-CN/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "um tema simples para acadêmicos",
+  },{id: "nav-博客",
+          title: "博客",
+          description: "我对于物理和这个世界的一些看法",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-CN/blog/";
