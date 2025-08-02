@@ -171,27 +171,27 @@ include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
-  - CONTRIBUTING.cn.md
+  - CONTRIBUTING.zh-CN.md
   - CUSTOMIZE.md
-  - CUSTOMIZE.cn.md
+  - CUSTOMIZE.zh-CN.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
   - FAQ.md
-  - FAQ.cn.md
+  - FAQ.zh-CN.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
-  - INSTALL.cn.md
+  - INSTALL.zh-CN.md
   - LICENSE
   - lighthouse_results/
   - package.json
   - package-lock.json
   - _pages/en/about_einstein.md
-  - _pages/cn/about_einstein.md
+  - _pages/zh-CN/about_einstein.md
   - purgecss.config.js
   - README.md
-  - README.cn.md
+  - README.zh-CN.md
   - readme_preview/
   - UPGRADING.md
   - vendor
