@@ -11,3 +11,5 @@ titles:
   submenus: submenus
   bookshelf: bookshelf
   unk: page not found
+book_titles:
+  the_godfather: "The Godfather"
