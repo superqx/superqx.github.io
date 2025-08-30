@@ -1,33 +1,35 @@
-- title: Informações Gerais
+- title: 简单介绍
   type: map
   contents:
-    - name: Nome Completo
-      value: Albert Einstein
-    - name: Data de Nascimento
-      value: 14 de março de 1879
-    - name: Idiomas
-      value: Inglês, Alemão
-
-- title: Educação
+    - name: 姓名
+      value: 钱鑫
+    - name: 语言
+      value: 英文, 中文
+- title: 教育背景
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurique, Suíça
-      year: 1905
+    - title: 博士
+      institution: 哥本哈根大学, 丹麦
+      year: 2025
       description:
-        - Descrição 1.
-        - Descrição 2.
-        - title: Descrição 3.
+        - 描述 1.
+        - 描述 2.
+        - title: 描述 3.
           contents:
-            - Sub-descrição 1.
-            - Sub-descrição 2.
-    - title: Diploma de ensino federal
-      institution: Eidgenössische Technische Hochschule, Zurique, Suíça
-      year: 1900
+            - 子描述 1.
+            - 子描述 2.
+    - title: 硕士
+      institution: 哥本哈根大学, 丹麦
+      year: 2022
       description:
-        - Descrição 1.
-        - Descrição 2.
-
+        - 描述 1.
+        - 描述 2.
+    - title: 学士
+      institution: 兰州大学, 中国
+      year: 2019
+      description:
+        - 描述 1.
+        - 描述 2.
 - title: Experiência
   type: time_table
   contents:
@@ -60,7 +62,6 @@
     - title: Professor Associado de Física Teórica
       institution: University of Zurich, Zurique, Suíça
       year: 1909 - 1911
-
 - title: Projetos de Código Aberto
   type: time_table
   contents:
@@ -71,7 +72,6 @@
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-atual
       description: Um tema Jekyll bonito, simples, limpo e responsivo para acadêmicos.
-
 - title: Honrarias e Prêmios
   type: time_table
   contents:
@@ -82,7 +82,6 @@
     - year: 2029
       items:
         - Medalha Max Planck
-
 - title: Interesses Acadêmicos
   type: nested_list
   contents:
@@ -94,7 +93,6 @@
       items:
         - Descrição 1.
         - Descrição 2.
-
 - title: Outros Interesses
   type: list
   contents:
