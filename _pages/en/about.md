@@ -7,7 +7,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p></p>
@@ -28,4 +28,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hej, human being. I'm Xin Qian, a physicist and just graduated Ph.D. at Niels Bohr Institute, where I study ABJM theory in quantum gravity. My work aims to deepen our understanding
+Hej, human being. I'm Xin Qian, a physicist and a just graduated Ph.D. at Niels Bohr Institute, where I study ABJM theory in quantum gravity. My work aims to deepen our understanding about what role does integrability play in the ABJM theory. I have also developed interest in non-equilibrium condensed matter system by applying the techniques of integrability. When I'm not doing research, you'll find me playing basketball with my friends or reading books alone.
