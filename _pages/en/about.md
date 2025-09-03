@@ -28,4 +28,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hej, human being. I'm Xin Qian, a physicist and a just graduated Ph.D. at Niels Bohr Institute, where I study ABJM theory in quantum gravity, here is my [thesis](/superqx.github.io/assets/pdf/Doctor_Thesis.pdf). My work aims to deepen our understanding about what role does integrability play in the ABJM theory. I have also developed interest in non-equilibrium condensed matter system by applying the techniques of integrability. When I'm not doing research, you'll find me playing basketball with my friends or reading books alone.
+Hej, human being. I'm Xin Qian, a physicist and a just graduated Ph.D. at Niels Bohr Institute, where I study ABJM theory in quantum gravity, here is my [thesis](assets/pdf/Doctor_Thesis.pdf). My work aims to deepen our understanding about what role does integrability play in the ABJM theory. I have also developed interest in non-equilibrium condensed matter system by applying the techniques of integrability. When I'm not doing research, you'll find me playing basketball with my friends or reading books alone.
