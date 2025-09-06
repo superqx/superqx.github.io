@@ -456,11 +456,6 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/books/en/the_myth_of_sisyphus/";
-            },},{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/books/zh-CN/the-godfather_II/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
