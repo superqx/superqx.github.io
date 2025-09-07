@@ -50,7 +50,7 @@ ninja.data = [{
           },
         },{id: "nav-简历",
           title: "简历",
-          description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
+          description: "我个人简历的所有信息。",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-CN/cv/";
