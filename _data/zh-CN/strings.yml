@@ -8,30 +8,30 @@ bibliography:
   awarded: Premiado
   blog: Blog
   book_prefix: Em
-  code: Código
+  code: 代码
   last_author_prefix: e
   poster: 海报
-  slides: Slides
+  slides: 幻灯片
   supp: Supl
   video: 视频
-  website: Site
+  website: 网站
 blog:
   navigation_title: 博客
 categories:
-  fun: diversão
-  work: trabalho
+  fun: 娱乐
+  work: 工作
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
 collections:
-  books: livros
-  posts: postagens
+  books: 书籍
+  posts: 帖子
 contact_note: 如果你有好的关于物理的想法，不要犹豫给我发一封邮件。:D
 cv:
   address: 地址
   area: Área
   awarder: Premiado por
-  awards: Prêmios
+  awards: 奖项
   basics: 基本信息
   certificates: 证书
   city: 城市
@@ -42,10 +42,10 @@ cv:
   email: 邮件
   endDate: Data de término
   fluency: Fluência
-  highlights: Destaques
+  highlights: 亮点
   image: Imagem
   institution: Instituição
-  interests: Interesses
+  interests: 兴趣爱好
   issuer: Emissor
   keywords: Palavras chave
   label: 职称
@@ -62,10 +62,10 @@ cv:
   present: Presente
   profiles: Perfis
   projects: Projetos
-  publications: Publicações
+  publications: 文章发表
   publisher: Editora
-  reference: Referência
-  references: Referências
+  reference: 推荐人
+  references: 推荐人
   region: Região
   releaseDate: Data de lançamento
   score: Pontuação
