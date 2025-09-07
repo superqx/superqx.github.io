@@ -6,7 +6,7 @@ title: 简历
 nav: true
 nav_order: 5
 cv_pdf: example_pdf.pdf
-description: Esta é uma descrição da página. Você pode modificá-la em '_pages/cv.md'. Também pode alterar ou remover o botão no topo de download de pdf.
+description: 我个人简历的所有信息。 
 toc:
   sidebar: left
 ---
