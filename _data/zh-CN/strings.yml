@@ -10,13 +10,13 @@ bibliography:
   book_prefix: Em
   code: Código
   last_author_prefix: e
-  poster: Poster
+  poster: 海报
   slides: Slides
   supp: Supl
-  video: Vídeo
+  video: 视频
   website: Site
 blog:
-  navigation_title: blog
+  navigation_title: 博客
 categories:
   fun: diversão
   work: trabalho
@@ -48,12 +48,12 @@ cv:
   interests: Interesses
   issuer: Emissor
   keywords: Palavras chave
-  label: Título
-  language: Idioma
-  languages: Idiomas
+  label: 职称
+  language: 语言
+  languages: 语言
   level: Nível
   location: Localização
-  name: Nome
+  name: 姓名
   network: Rede
   organization: Organização
   phone: 电话
@@ -69,16 +69,16 @@ cv:
   region: Região
   releaseDate: Data de lançamento
   score: Pontuação
-  skills: Habilidades
+  skills: 技能
   startDate: Data de início
   studyType: Tipo de estudo
-  summary: Resumo
+  summary: 总结
   table_of_contents: Tópicos
-  title: Título
-  url: Url
-  username: Usuário
-  volunteer: Voluntário
-  work: Trabalho
+  title: 职称
+  url: 网址
+  username: 用户名
+  volunteer: 志愿活动
+  work: 工作
 footer:
   copyright: 版权所有
   last_updated: "最后更新:"
