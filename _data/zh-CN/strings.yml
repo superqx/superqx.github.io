@@ -28,18 +28,18 @@ collections:
   posts: postagens
 contact_note: 如果你有好的关于物理的想法，不要犹豫给我发一封邮件。:D
 cv:
-  address: Endereço
+  address: 地址
   area: Área
   awarder: Premiado por
   awards: Prêmios
-  basics: Informações gerais
-  certificates: Certificados
-  city: Cidade
-  countryCode: Código do país
+  basics: 基本信息
+  certificates: 证书
+  city: 城市
+  countryCode: 国家地区代码
   courses: Cursos
   date: Data
-  education: Educação
-  email: Email
+  education: 教育背景
+  email: 邮件
   endDate: Data de término
   fluency: Fluência
   highlights: Destaques
@@ -56,8 +56,8 @@ cv:
   name: Nome
   network: Rede
   organization: Organização
-  phone: Telefone
-  position: Posição
+  phone: 电话
+  position: 职位
   postalCode: Código postal
   present: Presente
   profiles: Perfis
