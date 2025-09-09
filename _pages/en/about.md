@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>https://nbi.ku.dk/</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
