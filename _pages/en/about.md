@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://nbi.ku.dk'>Niels Bohr Institute</a>.
 
