@@ -4,7 +4,8 @@
     "label": "Physicist",
     "image": "",
     "email": "xinqian@nbi.ku.dk",
-    "url": "https://superqx.github.io/",
+    "phone": "(+86) 15385361807",
+    "url": "https://superqx.github.io/zh-CN/",
     "profiles": [
       {
         "network": "physics.stackexchange",
@@ -15,13 +16,12 @@
   },
   "education": [
     {
-      "institution": "Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark",
-      "location": "Copenhagen, Denmark",
+      "institution": "Niels Bohr Institute, Copenhagen University ",
       "url": "https://nbi.ku.dk/",
-      "area": "High energy physics theory",
+      "area": "High energy theory",
       "studyType": "PhD",
       "startDate": "2022-12-01",
-      "endDate": "2025-08-22",
+      "endDate": "2025-08-22"
     }
   ],
   "publications": [
@@ -39,11 +39,11 @@
       "url": "https://link.springer.com/article/10.1007/JHEP05(2025)207",
       "summary": "We determine the spectrum of quantum fluctuations in a 1/2-BPS domain wall version of ABJM theory, thereby enabling the perturbative exploration of the corresponding defect CFT. As expected, the spectrum reflects the supersymmetry of the model."
     }
- ],
+  ],
   "languages": [
     {
       "language": "Chinese",
-      "fluency": "Native speaker",
+      "fluency": "Mother tongue",
       "icon": ""
     },
     {
@@ -64,7 +64,20 @@
         "",
         ""
       ]
+    },
+{
+      "name": "Film",
+      "icon": "",
+      "keywords": [
+        "Film study",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     }
+
   ],
   "projects": [
     {
