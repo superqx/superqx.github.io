@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>https://nbi.ku.dk/</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://nbi.ku.dk'>Niels Bohr Institute</a>.
 
 profile:
   align: right
