@@ -79,14 +79,15 @@
     }
 
   ],
-  "projects": [
+  "Posters": [
     {
-      "name": "",
+      "name": "Spectrum in defect ABJM theory",
       "summary": "",
       "highlights": ["", ""],
       "startDate": "",
       "endDate": "",
-      "url": ""
-    }
+      "url": "https://indico.fysik.su.se/event/8807/page/775-conference-timetable-titles-and-abstracts"
+    },
+
   ]
 }
