@@ -61,7 +61,7 @@ cv:
   postalCode: Código postal
   present: Presente
   profiles: Perfis
-  projects: Projetos
+  projects: 海报
   publications: 文章发表
   publisher: Editora
   reference: 推荐人
@@ -153,7 +153,7 @@ search:
   news: Novidades
   placeholder: Digite para iniciar a busca
   posts: Postagens
-  projects: 海报
+  projects: Projects
   socials: Redes sociais
   system_theme:
     description: Muda o tema do site para o padrão do sistema

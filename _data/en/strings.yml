@@ -153,7 +153,7 @@ search:
   news: News
   placeholder: Type to start searching
   posts: Posts
-  projects: Posters
+  projects: Projects
   socials: Socials
   system_theme:
     description: Change the theme of the site to System Default
