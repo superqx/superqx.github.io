@@ -4,7 +4,7 @@ layout: page
 title: 子菜单
 nav: true
 nav_order: 8
-dropdown: true
+dropdown: false
 children:
   - title: 文章发表
     permalink: /publications/

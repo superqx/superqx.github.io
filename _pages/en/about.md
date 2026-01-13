@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://nbi.ku.dk'>Niels Bohr Institute</a>.
+subtitle: <a href=''>https://yauc.seu.edu.cn/</a>.
 
 profile:
   align: right
@@ -28,4 +28,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey, I'm Xin Qian, a physicist and a just graduated Ph.D. student at Niels Bohr Institute, where I study ABJM theory in quantum gravity.  My work aims to deepen our understanding about what role does integrability play in the ABJM theory, which is the boundary field theory in $\mathrm{AdS_4}/\mathrm{CFT_3}$, where the first two-loop dilatation operator is mapped to the Hamiltonian of an alternating $\mathrm{XXX}$ spin chain. I have also developed interest in non-equilibrium condensed matter system by applying the techniques of integrability, the combination between analytical calculation and numerical simulation is an interesting thing by itself. When I'm not doing research, you'll find me playing basketball or reading books.
+Hi, I'm Xin Qian, a physicist. I'm joining Shing-Tung Yau Center and School of Physics, Southeast University from Jan. 2026 as a postdoctoral researcher advised by Prof. Yunfeng Jiang. Before this, I earned my PhD degree within the area of $\mathrm{AdS}/\mathrm{CFT}$ in 2025 under the supervision of Prof. Charlotte Fløe Kristjansen, from Niels Bohr institute (NBI), University of Copenhagen. I have also obtained the Master degree under the same supervisor from NBI. A prior to this, I  got my Bachelor's degree, supervised by Prof. Zhan-Wei Liu, from Lanzhou University in Lanzhou, Gansu. 
+
+Currently, I'm interested in applying the technique of integrability to the system out of equilibrium, Integrability provides exact results for the simulation of the system in non-equilibrium. 

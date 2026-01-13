@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: 关于我
 permalink: /
-subtitle: <a href='https://nbi.ku.dk'>尼尔斯-玻尔研究所</a>
+subtitle: <a href=''></a>
 
 profile:
   align: right
@@ -22,4 +22,6 @@ social: true # includes social icons at the bottom of the page
 
 
 
-你好哇，我是钱鑫，是哥本哈根大学尼尔斯-玻尔研究所一名刚刚毕业的博士生，在博士期间我的主要研究可积性在ABJM理论中的应用。ABJM理论在$\mathrm{AdS_4/CFT_3}$对偶中扮演着边界上的量子场论的角色，其双圈伸缩算子对应$\mathrm{XXX}$交替自旋链中的Hamiltonian。另外我还对可积性在非平衡系统中的应用产生兴趣，可积性工具给非平衡系统的数值模拟提供了精确的解析解，两者的结合本身就是一件有趣的事情。在研究之余，我喜欢打篮球和看书。
+你好，我是钱鑫，一名物理学家。我从2026年1月开始加入东南大学的丘成桐中心， 作为一个博士后研究者，我的导师是江云峰教授。在这之前，我在同一年从哥本哈根大学的波尔所获得的博士学位，在Charlotte Fløe Kristjansen教授的指导下做了跟$\mathrm{AdS}/\mathrm{CFT}$有关的内容。从同一个研究机构，我在Charlotte教授的指导下获得了硕士学位。在这之前我从兰州大学获得了学士学位，收到了刘占伟教授的指导。
+
+目前我的研究兴趣为把可积性这个方法应用到非平衡系统里面，可积性为非平衡态的模拟提供了精确的参考结果。

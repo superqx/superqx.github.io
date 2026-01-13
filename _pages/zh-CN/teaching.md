@@ -2,7 +2,7 @@
 page_id: teaching
 layout: page
 permalink: /teaching/
-title: 和学生的快乐时光
+title: 课程
 description: 我的笔记，开放课链接的分享，以及其他与物理教学相关内容
 nav: true
 nav_order: 6
