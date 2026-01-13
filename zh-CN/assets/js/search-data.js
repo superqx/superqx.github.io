@@ -34,20 +34,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/publications/";
           },
-        },{id: "nav-项目",
-          title: "项目",
-          description: "我的快乐项目合集",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/zh-CN/projects/";
-          },
-        },{id: "nav-代码库",
-          title: "代码库",
-          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/zh-CN/repositories/";
-          },
         },{id: "nav-简历",
           title: "简历",
           description: "我个人简历的所有信息。",
@@ -55,42 +41,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/cv/";
           },
-        },{id: "nav-和学生的快乐时光",
-          title: "和学生的快乐时光",
+        },{id: "nav-课程",
+          title: "课程",
           description: "我的笔记，开放课链接的分享，以及其他与物理教学相关内容",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-CN/teaching/";
           },
-        },{id: "nav-人员",
-          title: "人员",
-          description: "组内人员",
+        },{id: "nav-子菜单",
+          title: "子菜单",
+          description: "",
           section: "Menu de navegação",
           handler: () => {
-            window.location.href = "/zh-CN/people/";
+            window.location.href = "/zh-CN/_pages/zh-CN/dropdown/";
           },
-        },{id: "dropdown-文章发表",
-              title: "文章发表",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/zh-CN/publications/";
-              },
-            },{id: "dropdown-项目",
-              title: "项目",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/zh-CN/projects/";
-              },
-            },{id: "dropdown-博客",
-              title: "博客",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/zh-CN/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
