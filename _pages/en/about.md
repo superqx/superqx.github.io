@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: <a href=''>https://yauc.seu.edu.cn/</a>.
+subtitle: <a href='https://yauc.seu.edu.cn/'> Shing-Tung Yau Center, Southeast University </a>.
 
 profile:
   align: right
