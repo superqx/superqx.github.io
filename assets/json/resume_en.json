@@ -3,7 +3,7 @@
     "name": "Xin Qian",
     "label": "Physicist",
     "image": "",
-    "email": "xinqian@nbi.ku.dk",
+    "email": "xinqian@seu.edu.cn",
     "phone": "",
     "url": "https://superqx.github.io",
     "profiles": [
@@ -14,6 +14,14 @@
       }
     ]
   },
+  "work": [
+    {
+      "name": "Shing-Tung Yau Center, Southeast University",
+      "position": "Postdoc",
+      "url": "https://yauc.seu.edu.cn/",
+      "startDate": "2026-01-06"
+    }
+  ],
   "education": [
     {
       "institution": "Niels Bohr Institute, Copenhagen University ",
@@ -51,43 +59,5 @@
       "fluency": "Fluent",
       "icon": ""
     }
-  ],
-  "interests": [
-    {
-      "name": "Basketball",
-      "icon": "",
-      "keywords": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-{
-      "name": "Film",
-      "icon": "",
-      "keywords": [
-        "Film study",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    }
-
-  ],
-  "projects": [
-    {
-      "name": "Spectrum in defect ABJM theory",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "",
-      "endDate": "",
-      "url": "https://indico.fysik.su.se/event/8807/page/775-conference-timetable-titles-and-abstracts"
-    }
-
   ]
 }

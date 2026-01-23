@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "钱鑫",
-    "label": "物理学家",
+    "label": "物理学研究者",
     "image": "",
-    "email": "xinqian@nbi.ku.dk",
+    "email": "xinqian@seu.edu.cn",
     "phone": "",
     "url": "https://superqx.github.io/zh-CN/",
     "profiles": [
@@ -14,9 +14,17 @@
       }
     ]
   },
+  "work": [
+    {
+      "name": "东南大学丘成桐中心",
+      "position": "博士后",
+      "url": "https://yauc.seu.edu.cn/",
+      "startDate": "2026-01-06"
+    }
+  ],
   "education": [
     {
-      "institution": "哥本哈根大学尼尔斯玻尔研究所",
+      "institution": "哥本哈根大学尼尔斯·玻尔研究所",
       "url": "https://nbi.ku.dk/",
       "area": "高能理论物理",
       "studyType": "PhD",
@@ -50,43 +58,6 @@
       "language": "英文",
       "fluency": "流利",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "篮球",
-      "icon": "",
-      "keywords": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-{
-      "name": "电影",
-      "icon": "",
-      "keywords": [
-        "电影研究",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    }
-
-  ],
-  "projects": [
-    {
-      "name": "Spectrum in defect ABJM theory",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "",
-      "endDate": "",
-      "url": "https://indico.fysik.su.se/event/8807/page/775-conference-timetable-titles-and-abstracts"
     }
   ]
 }

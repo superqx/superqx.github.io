@@ -21,27 +21,27 @@ categories:
   fun: 娱乐
   work: 工作
 citation:
-  bibtex: "ou como uma citação em BibTeX:"
-  introduction: "Se você achou isso útil, por favor cite como:"
+  bibtex: 
+  introduction: 
 collections:
   books: 书籍
   posts: 帖子
 contact_note: 如果你有好的关于物理的想法，不要犹豫给我发一封邮件。:D
 cv:
   address: 地址
-  area: Área
-  awarder: Premiado por
+  area: 地区
+  awarder: 授奖单位
   awards: 奖项
   basics: 基本信息
   certificates: 证书
   city: 城市
   countryCode: 国家地区代码
   courses: Cursos
-  date: Data
+  date: 数据
   education: 教育背景
   email: 邮件
   endDate: Data de término
-  fluency: Fluência
+  fluency: 流利度
   highlights: 亮点
   image: Imagem
   institution: Instituição
@@ -73,7 +73,7 @@ cv:
   startDate: Data de início
   studyType: Tipo de estudo
   summary: 总结
-  table_of_contents: Tópicos
+  table_of_contents: 目录
   title: 职称
   url: 网址
   username: 用户名
@@ -85,7 +85,7 @@ footer:
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 驱动, 采用 <a href="https://github.com/alshedivat/al-folio">al-folio</a> 主题.
   托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-latest_posts: últimas postagens
+latest_posts: 最新帖子
 months:
   long:
     january: 一月
@@ -115,15 +115,15 @@ months:
     december: 十二月
 news: 新闻
 newsletter:
-  back: Voltar
-  error: "Oops! Algo deu errado, por favor tente novamente."
-  subscribe: inscrever-se
+  back: 返回 
+  error: “抱歉，出现问题，请稍后再试。“
+  subscribe: 订阅
   subscribed: "Você se inscreveu com sucesso na newsletter."
   subscribe_to_receive: "Inscreva-se para ser notificado de futuros artigos:"
   too_many_signups: "Muitas inscrições, por favor tente novamente em breve"
-  wait: "Por favor, aguarde..."
-no_news: Nenhuma novidade no momento...
-no_posts: "Nenhuma postagem até agora..."
+  wait: “请稍等……”
+no_news: “目前暂无新动态……”
+no_posts: “暂时还没有帖子……”
 pagination:
   page: página
 post:
@@ -145,19 +145,19 @@ search:
     navigate: para navegar
     parent: voltar um nível
     select: para selecionar
-  languages: Idiomas
+  languages: 语言
   light_theme:
-    description: Muda o tema do site para claro
-    title: Muda o tema para claro
-  navigation: Menu de navegação
-  news: Novidades
-  placeholder: Digite para iniciar a busca
-  posts: Postagens
-  projects: Projects
-  socials: Redes sociais
+    description: 切换为浅色模式
+    title: 切换为浅色主题
+  navigation: 导航菜单
+  news: 新闻
+  placeholder: 输入以开始搜索
+  posts: 帖子
+  projects: 课题
+  socials: 社交媒体 
   system_theme:
-    description: Muda o tema do site para o padrão do sistema
-    title: Usa o tema padrão do sistema
-  theme: Tema
-selected_publications: publicações selecionadas
-site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
+    description: 切换网站主题为系统默认
+    title: 使用系统默认主题
+  theme: 主题
+selected_publications: 精选论文
+site_description: 面向学术界的简约主题，设计参考自 [*folio](https://github.com/bogoli/-folio).
