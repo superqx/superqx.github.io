@@ -4,7 +4,7 @@ layout: page
 permalink: /teaching/
 title: 课程
 description: 我的笔记，开放课链接的分享，以及其他与物理教学相关内容
-nav: true
+nav: false
 nav_order: 6
 ---
 
