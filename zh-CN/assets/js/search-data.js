@@ -34,13 +34,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-CN/cv/";
           },
-        },{id: "nav-子菜单",
-          title: "子菜单",
-          description: "",
-          section: "导航菜单",
-          handler: () => {
-            window.location.href = "/zh-CN/_pages/zh-CN/dropdown/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
