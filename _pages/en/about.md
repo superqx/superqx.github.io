@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://yauc.seu.edu.cn/'>Shing-Tung Yau Center, Southeast University</a>.
+subtitle: <a href=''></a>.
 
 profile:
   align: right
@@ -28,6 +28,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Xin Qian, a researcher in Physics. I'm joining [School of Physics](https://physics.seu.edu.cn/) and [Shing-Tung Yau Center](https://yauc.seu.edu.cn), Southeast University from Jan. 2026 as a postdoctoral researcher advised by Prof. Yunfeng Jiang. Before this, I earned my PhD degree within the area of $\mathrm{AdS/CFT}$ in 2025 under the supervision of Prof. Charlotte Fløe Kristjansen, from [Niels Bohr institute](https://nbi.ku.dk/english/) (NBI), University of Copenhagen. I have also obtained the Master degree under the same supervisor from NBI. A prior to this, I  got my Bachelor's degree, supervised by Prof. Zhan-Wei Liu, from [School of Physical Science and Technology](https://phy.lzu.edu.cn/), Lanzhou University. 
-
-Currently, I'm interested in applying the technique of integrability to the system out of equilibrium, Integrability provides exact results for the simulation of the system in non-equilibrium. 
+Hi, I'm Xin Qian, a researcher in Physics. I'm joining School of Physics and Shing-Tung Yau Center, Southeast University from Jan. 2026 as a postdoctoral researcher. Before this, I earned my PhD degree in 2025 under the supervision of Prof. Charlotte Fløe Kristjansen, from Niels Bohr institute (NBI), University of Copenhagen. Currently, I'm interested in applying the technique of integrability to the system out of equilibrium, Integrability provides exact results for the simulation of the system in non-equilibrium. 
