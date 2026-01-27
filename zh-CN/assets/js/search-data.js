@@ -20,14 +20,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/zh-CN/";
     },
-  },{id: "nav-博客",
-          title: "博客",
-          description: "我对于物理和这个世界的一些看法",
-          section: "导航菜单",
-          handler: () => {
-            window.location.href = "/zh-CN/blog/";
-          },
-        },{id: "nav-文章发表",
+  },{id: "nav-文章发表",
           title: "文章发表",
           description: "我的完整文章列表，包括发表链接，按照时间排序。",
           section: "导航菜单",
@@ -40,13 +33,6 @@ ninja.data = [{
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-CN/cv/";
-          },
-        },{id: "nav-课程",
-          title: "课程",
-          description: "我的笔记，开放课链接的分享，以及其他与物理教学相关内容",
-          section: "导航菜单",
-          handler: () => {
-            window.location.href = "/zh-CN/teaching/";
           },
         },{id: "nav-子菜单",
           title: "子菜单",
