@@ -1,15 +1,15 @@
 archive:
-  prefix: um arquivo de
-  category_suffix: desta categoria
-  tag_suffix: com este marcador
-  year_suffix: deste ano
+  prefix: 档案
+  category_suffix: 在此类别中
+  tag_suffix: 有此标签
+  year_suffix: 从这年起
 bibliography:
-  abstract: Abs
-  awarded: Premiado
-  blog: Blog
-  book_prefix: Em
+  abstract: 简介
+  awarded: 授予
+  blog: 博客
+  book_prefix: 在
   code: 代码
-  last_author_prefix: e
+  last_author_prefix: 和
   poster: 海报
   slides: 幻灯片
   supp: Supl
@@ -36,42 +36,42 @@ cv:
   certificates: 证书
   city: 城市
   countryCode: 国家地区代码
-  courses: Cursos
+  courses: 课程
   date: 数据
   education: 教育背景
   email: 邮件
   endDate: Data de término
   fluency: 流利度
   highlights: 亮点
-  image: Imagem
-  institution: Instituição
+  image: 图片
+  institution: 机构
   interests: 兴趣爱好
   issuer: Emissor
   keywords: Palavras chave
   label: 职称
   language: 语言
   languages: 语言
-  level: Nível
-  location: Localização
+  level: 等级
+  location: 地点
   name: 姓名
   network: Rede
-  organization: Organização
+  organization: 组织
   phone: 电话
   position: 职位
-  postalCode: Código postal
-  present: Presente
-  profiles: Perfis
+  postalCode: 邮编
+  present: 现在
+  profiles: 简介
   projects: 海报
   publications: 文章发表
-  publisher: Editora
+  publisher: 发表机构
   reference: 推荐人
   references: 推荐人
-  region: Região
-  releaseDate: Data de lançamento
-  score: Pontuação
+  region: 地区
+  releaseDate: 发表时间
+  score: 分数
   skills: 技能
-  startDate: Data de início
-  studyType: Tipo de estudo
+  startDate: 开始时间
+  studyType: 学习方式
   summary: 总结
   table_of_contents: 目录
   title: 职称
@@ -136,15 +136,15 @@ related_posts:
   title: Gostou de Ler este Artigo?
 search:
   dark_theme:
-    description: Muda o tema do site para escuro
-    title: Muda o tema para escuro
-  dropdown: Outras opções
-  email: Enviar um email
+    description: 将网站主题改变成黑色
+    title: 网站主题变黑色
+  dropdown: 下拉菜单
+  email: 发送一篇邮件
   footer:
-    close: para fechar
-    navigate: para navegar
-    parent: voltar um nível
-    select: para selecionar
+    close: 关闭
+    navigate: 导航
+    parent: 回到母菜单
+    select: 选择
   languages: 语言
   light_theme:
     description: 切换为浅色模式
