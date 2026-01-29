@@ -465,7 +465,7 @@ ninja.data = [{
               window.location.href = "/zh-CN/projects/zh-CN/6_project/";
             },},{
         id: 'social-email',
-        title: 'Enviar um email',
+        title: '发送一篇邮件',
         section: '社交媒体',
         handler: () => {
           window.open("mailto:%78%69%6E%71%69%61%6E@%73%65%75.%65%64%75.%63%6E", "_blank");
@@ -502,8 +502,8 @@ ninja.data = [{
     },
     {
       id: 'dark-theme',
-      title: 'Muda o tema para escuro',
-      description: 'Muda o tema do site para escuro',
+      title: '网站主题变黑色',
+      description: '将网站主题改变成黑色',
       section: '主题',
       handler: () => {
         setThemeSetting("dark");
