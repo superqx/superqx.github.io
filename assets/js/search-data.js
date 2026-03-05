@@ -407,6 +407,16 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/books/en/the_myth_of_sisyphus/";
+            },},{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/books/zh-CN/%E6%95%99%E7%88%B6/";
+            },},{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/books/zh-CN/%E8%A5%BF%E8%A5%BF%E4%BD%9B%E7%9A%84%E7%A5%9E%E8%AF%9D/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
