@@ -21,8 +21,8 @@ categories:
   fun: 娱乐
   work: 工作
 citation:
-  bibtex: 
-  introduction: 
+  bibtex:
+  introduction:
 collections:
   books: 书籍
   posts: 帖子
@@ -115,7 +115,7 @@ months:
     december: 十二月
 news: 新闻
 newsletter:
-  back: 返回 
+  back: 返回
   error: “抱歉，出现问题，请稍后再试。“
   subscribe: 订阅
   subscribed: "Você se inscreveu com sucesso na newsletter."
@@ -154,7 +154,7 @@ search:
   placeholder: 输入以开始搜索
   posts: 帖子
   projects: 课题
-  socials: 社交媒体 
+  socials: 社交媒体
   system_theme:
     description: 切换网站主题为系统默认
     title: 使用系统默认主题

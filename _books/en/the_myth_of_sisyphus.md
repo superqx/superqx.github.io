@@ -14,9 +14,8 @@ released: 1942
 #stars: 5
 #goodreads_review: 6318556633
 status: READING
-
 ---
 
-What is the meaning of life? If there is no mighty God who enforce us the meaning of our presence, what will keep us from suicide? Camus tries to use the myth of Sisyphus to claim that the action itself is good enough to give an applause. The impossibility of reducing our world into rational and reasonable rules that we logical human can appreciate creates a sense of absurd, but constant revolt of such absurd that one is encouraged to do would build further understanding, until we are again immersed with absurd. The limited applicable region of theories (rational and reasonable rules) must be accepted, instead of suicide -- a complete surrender to absurd, we should fight, constantly. 
+What is the meaning of life? If there is no mighty God who enforce us the meaning of our presence, what will keep us from suicide? Camus tries to use the myth of Sisyphus to claim that the action itself is good enough to give an applause. The impossibility of reducing our world into rational and reasonable rules that we logical human can appreciate creates a sense of absurd, but constant revolt of such absurd that one is encouraged to do would build further understanding, until we are again immersed with absurd. The limited applicable region of theories (rational and reasonable rules) must be accepted, instead of suicide -- a complete surrender to absurd, we should fight, constantly.
 
-To be continued. 
+To be continued.
